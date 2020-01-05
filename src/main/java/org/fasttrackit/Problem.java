@@ -2,10 +2,17 @@ package org.fasttrackit;
 
 public class Problem extends Solution {
 
-    double a;
-    double b;
-    String name1;
-    String name2;
+   double a;
+   double b;
+   String name1;
+   String name2;
+
+    Problem() {
+         a = 14;
+         b = 4;
+         name1 = " Cosmin ";
+         name2 = " Maria ";
+    }
 
     public double getA() {
         return a;

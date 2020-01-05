@@ -2,9 +2,11 @@ package org.fasttrackit;
 
 public class Solution  {
 
-    String solutionName;
+     String solutionName;
 
-
+    Solution(){
+        solutionName = " Ecuation ";
+    }
 
     public double multiplication(double a,double b) {
 

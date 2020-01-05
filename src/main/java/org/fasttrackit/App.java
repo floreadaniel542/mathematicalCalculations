@@ -14,17 +14,17 @@ public class App
         problem1.a = 45.3;
         problem1.b = -21.4 ;
 
-        System.out.println(problem1.name1 + " give " + problem1.a + " egg " + " to " + problem1.name2 + " she have "
-                + problem1.b + " the total is ?");
+        System.out.println(problem1.getName1() + " give " + problem1.getA() + " egg " + " to " + problem1.getName2() +
+                " she have " + problem1.getB() + " the total is ?");
 
 
         Solution solution = new Solution();
         solution.solutionName = "Inmultire";
 
-        solution.multiplication(problem1.a,problem1.b);
-        solution.down(problem1.a,problem1.b);
-        solution.division(problem1.a,problem1.b);
-        solution.gathering(problem1.a,problem1.b);
+        solution.multiplication(problem1.getA(),problem1.getB());
+        solution.down(problem1.getA(),problem1.getB());
+        solution.division(problem1.getA(),problem1.getB());
+        solution.gathering(problem1.getA(),problem1.getB());
 
 
 
