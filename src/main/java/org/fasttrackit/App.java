@@ -11,8 +11,8 @@ public class App
         Problem problem1 = new Problem();
         problem1.name1 = "Cosmin ";
         problem1.name2 = "Maria";
-        problem1.a = 40;
-        problem1.b = 20 ;
+        problem1.a = 45.3;
+        problem1.b = -21.4 ;
 
         System.out.println(problem1.name1 + " give " + problem1.a + " egg " + " to " + problem1.name2 + " she have "
                 + problem1.b + " the total is ?");

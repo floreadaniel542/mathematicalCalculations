@@ -47,4 +47,18 @@ public class Solution  {
         return result ;
     }
 
+    public String getSolutionName() {
+        return solutionName;
+    }
+
+    public void setSolutionName(String solutionName) {
+        this.solutionName = solutionName;
+    }
+
+    @Override
+    public String toString() {
+        return "Solution{" +
+                "solutionName='" + solutionName + '\'' +
+                '}';
+    }
 }
